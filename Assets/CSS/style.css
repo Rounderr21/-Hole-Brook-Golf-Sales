@@ -1,17 +1,32 @@
+
 header{
     display: flex;
-
+    justify-content: space-evenly;
     background: linear-gradient(to bottom, #3f87a6, #ebf8e1, rgb(30, 182, 30));
     color: black;
     width: 100%;
-    height: 500px;
-    font-size: 100px;
+    height: 13vh;
+    font-size: 50px;
     text-align: center;
+    border-bottom: solid 5px green;
 }
 nav{
-    background-color: white;
-    justify-content: baseline;
+    display: inline;
 }
 img{
-    height: 250px;
+    height: 150px;
+}
+section{
+    display: flex;
+    text-align: center;
+    background-color: black;
+    height: 500px;
+    color: white;
+    border: 5px red solid;
+}
+footer{
+    height: 8vh;
+    width: 100%;
+    background-color: lightgrey;
+    text-align: center;
 }
