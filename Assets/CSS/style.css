@@ -16,17 +16,86 @@ nav{
 img{
     height: 150px;
 }
+#imagesrecirc{
+    height: 1000px;
+
+}
+
+#payntr-shoes{
+
+    height: auto;
+}
+#brand1{
+    width: 5000px;
+}
+#brand2{
+
+    width: 1000px;
+}
+#brand3{
+    height: auto;
+    width: auto;
+}
+#brandFont{
+    text-align: center;
+    color: black;
+    font-size: 55px;
+
+}
+#brandsContainer{
+    flex-direction: column;
+    background-color: white;
+
+}
+#container{
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+}
+.brands{
+    width: 170px;
+    height: 170px;
+    margin: 1em;
+}
 section{
     display: flex;
     text-align: center;
-    background-color: black;
+    background-color: grey;
     height: 500px;
     color: white;
-    border: 5px red solid;
+    border: 1px red solid;
 }
 footer{
-    height: 8vh;
+    display: flex;
+    height: 80px;
     width: 100%;
+    font-size: 25px;
     background-color: lightgrey;
-    text-align: center;
+    justify-content: center;
+    align-items: center;  
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade-in;
+  animation-duration: 8s;
+}
+
+@keyframes fade-in {
+  from {opacity: .4}
+  to {opacity: 1}
 }
