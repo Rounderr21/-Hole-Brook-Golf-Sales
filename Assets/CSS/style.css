@@ -164,6 +164,15 @@ hr{
     #paragraph {
         font-size: 20px;
     }
+    .brand1{
+        margin-left: 75px;
+    }
+    .brands{
+        margin-left: 110px;
+    }
+    #footerTxt{
+        font-size: 17px;
+    }
     
 }
 
